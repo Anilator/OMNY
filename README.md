@@ -1,3 +1,3 @@
-# [Omnydirectional css lib](https://anilator.github.io/OMNY/)
+# [Omnidirectional css lib](https://anilator.github.io/OMNY/)
 
 Hello.
