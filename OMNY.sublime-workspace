@@ -1,0 +1,910 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rooms__s",
+				"rooms__sliderWrap"
+			],
+			[
+				"F",
+				"Flats_sorted"
+			],
+			[
+				"ne",
+				"news_img-170302.jpg\tw:230 h:80"
+			],
+			[
+				"cur",
+				"cur-d\tcursor: default;"
+			],
+			[
+				"is",
+				"is_mobile"
+			],
+			[
+				"sp",
+				"sprite_infrastr.png\tw:332 h:80"
+			],
+			[
+				"pol",
+				"polozhitelnoye-zaklyuchenie-negosudarstvennoy-ekspertizi-ot-11.08.2016__min.pdf"
+			],
+			[
+				"polo",
+				"polozhitelnoye-zaklyuchenie-negosudarstvennoy-ekspertizi-ot-25.07.2014__min.pdf"
+			],
+			[
+				"s",
+				"SRO-svidetelstvo__min.pdf"
+			],
+			[
+				"load",
+				"loadImg"
+			],
+			[
+				"sli",
+				"slider_images"
+			],
+			[
+				"pro",
+				"proektnaya-deklaraciya-ot-14.03.2017__min.pdf"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"lowe",
+				"lowest_value"
+			],
+			[
+				"cate",
+				"categories_toggle"
+			],
+			[
+				"par",
+				"parents"
+			],
+			[
+				"st",
+				"startX"
+			],
+			[
+				"log",
+				"sprite_logos-pc.jpg\tw:720 h:1100"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"too",
+				"tooltip_text"
+			],
+			[
+				"u",
+				"line-through"
+			],
+			[
+				"ite",
+				"item_clicked"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"spr",
+				"sprite_icons-min.png\tw:200 h:500"
+			],
+			[
+				"pa",
+				"parent"
+			],
+			[
+				"menui",
+				"menu__item_clicked"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"my",
+				"my_library"
+			],
+			[
+				"spri",
+				"sprite_social.png\tw:300 h:100"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"bg",
+				"bg+\tbackground: ${1:#fff} url(${2}) ${3:0} ${4:0} ${5:no-repeat};"
+			],
+			[
+				"ta",
+				"ta\ttext-align: ${1:left};"
+			],
+			[
+				"swi",
+				"s_window"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"slne",
+				"s_line"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"sc",
+				"screen_sb-1.jpeg\tw:392 h:696"
+			],
+			[
+				"r",
+				"screen_rsm-1.jpeg\tw:392 h:696"
+			],
+			[
+				"ic",
+				"icon2.png\tw:175 h:175"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"menu",
+				"menu__content"
+			],
+			[
+				"menu__",
+				"menu__line"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"m-a",
+				"m-a\tmargin: auto;"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 981,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 129.0,
+		"last_filter": "git cus",
+		"selected_items":
+		[
+			[
+				"git cus",
+				"Git: Custom Command"
+			],
+			[
+				"git ",
+				"Gitk"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"pcrep",
+				"Package Control: Remove Package"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"pcre",
+				"Package Control: Remove Package"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"pc",
+				"Package Control: Install Package"
+			],
+			[
+				"sft",
+				"SublimeZilla: Import FileZilla Server"
+			],
+			[
+				"pcr",
+				"Package Control: Remove Package"
+			],
+			[
+				"pcd",
+				"Package Control: Discover Packages"
+			],
+			[
+				"tagg",
+				"Tag: Get CSS Classes"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"pcrp",
+				"Package Control: Remove Package"
+			],
+			[
+				"colors",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"co",
+				"Colorsublime: Install Theme"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 59.0,
+		"history":
+		[
+			"view.settings()",
+			"view.settings",
+			"view",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/_ALL/_PROJECTS/_STUFF/OMNY"
+	],
+	"file_history":
+	[
+		"/C/_ALL/_PROJECTS/kalinino-lp.lc/js/database.js",
+		"/C/_ALL/_PROJECTS/kalinino-lp.lc/css/intop.slider.css",
+		"/C/_ALL/_PROJECTS/kalinino-lp.lc/js/vendor/jquery.intop.slider.js",
+		"/C/_ALL/_PROJECTS/kalinino-lp.lc/js/map_settings.js",
+		"/C/_ALL/_PROJECTS/kalinino-lp.lc/js/base.js",
+		"/C/_ALL/_PROJECTS/kalinino-lp.lc/css/main.min.css",
+		"/C/_ALL/_PROJECTS/kalinino-lp.lc/js/base.min.js",
+		"/C/_ALL/_PROJECTS/kalinino-lp.lc/js/main.min.js",
+		"/C/_ALL/_PROJECTS/kalinino-lp.lc/js/map_settings.min.js",
+		"/C/Users/Anilator/AppData/Roaming/Sublime Text 3/Packages/SFTP/Default (Windows).sublime-keymap",
+		"/C/Users/Anilator/AppData/Roaming/Sublime Text 3/Packages/YUI Compressor/package-metadata.json",
+		"/C/Users/Anilator/AppData/Roaming/Sublime Text 3/Packages/YUI Compressor/README.md",
+		"/C/_ALL/_PROJECTS/kalinino-lp.lc/index - копия.php",
+		"/C/Users/Anilator/AppData/Roaming/Sublime Text 3/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/C/_ALL/_PROJECTS/kalinino-lp.lc/js/map_code.js",
+		"/C/_ALL/_PROJECTS/kalinino.lc/js/vendor/jquery.intop.slider.js",
+		"/C/_ALL/_PROJECTS/kalinino.lc/css/css.combined.css",
+		"/C/_ALL/_PROJECTS/kalinino.lc/js/js.combined.js",
+		"/C/_ALL/_PROJECTS/kalinino.lc/js/vendor/jquery.intop.menu.js",
+		"/C/_ALL/_PROJECTS/kalinino.lc/css/fonts-woff2.css",
+		"/C/_ALL/_PROJECTS/kalinino.lc/css/fonts-woff.css",
+		"/C/_ALL/_PROJECTS/timo.lc/css/fonts-woff2.css",
+		"/C/_ALL/_PROJECTS/timo.lc/css/fonts-woff.css",
+		"/C/_ALL/_PROJECTS/template-lp.lc/js/js.combined.js",
+		"/C/_ALL/_PROJECTS/template-lp.lc/css/css.combined.css",
+		"/C/Users/Anilator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Anilator/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/_ALL/WORK/domains/Dveri/product.tpl",
+		"/C/_ALL/WORK/domains/Dveri/stylesheet.css",
+		"/C/_ALL/WORK/domains/nik-kov.lc/js/vendor/jquery.intop.slider.js",
+		"/C/_ALL/WORK/domains/nik-kov.lc/php/callme.php",
+		"/C/_ALL/WORK/domains/nik-kov.lc/php/styles.php",
+		"/C/_ALL/WORK/domains/nik-kov.lc/php/scripts.php",
+		"/C/_ALL/polya.kys",
+		"/C/_ALL/WORK/domains/nik-kov.lc/secondary.php",
+		"/C/OpenServer/domains/nik-kov.lc/css/main.min.css",
+		"/C/OpenServer/domains/nik-kov.lc/css/intop.slider.css",
+		"/C/OpenServer/domains/nik-kov.lc/js/vendor/jquery.intop.slider.js",
+		"/C/OpenServer/domains/nik-kov.lc/css/jquery.arcticmodal.css",
+		"/C/OpenServer/domains/nik-kov.lc/js/plugins.js",
+		"/C/OpenServer/domains/nik-kov.lc/secondary.php",
+		"/C/Users/Anilator/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Anilator/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Anilator/AppData/Roaming/Sublime Text 3/Packages/Tag/Tag Package.sublime-settings",
+		"/C/Users/Anilator/AppData/Roaming/Sublime Text 3/Packages/Goto-CSS-Declaration/Default (Windows).sublime-keymap",
+		"/C/Users/Anilator/AppData/Roaming/Sublime Text 3/Packages/EasyMotion/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ib",
+			"s ",
+			"ib_ie7",
+			"info_html",
+			"Flats[current_id]",
+			"squares_html",
+			"square",
+			"price",
+			"prices",
+			"plans",
+			"build",
+			"news",
+			"span",
+			"rooms__square",
+			"news",
+			"\"news__img ",
+			"news__img",
+			" ' ",
+			"price:",
+			"price: ' ",
+			"price: ",
+			"price:",
+			"03_",
+			"03_0",
+			"3_0",
+			"4_0",
+			"07_",
+			"06_0",
+			"04_",
+			"en: ",
+			"ing:",
+			"square:",
+			"price",
+			"price_decor",
+			"square",
+			"22",
+			"empty",
+			"03_",
+			"04_",
+			"living",
+			"rooms",
+			"info",
+			"plans__flat",
+			"div",
+			"></div>",
+			"plansModal__item",
+			"🎒",
+			"news__sliderWrap",
+			" <br>",
+			"news__h",
+			"news__date",
+			"build",
+			");\nobjects.push(",
+			"objects[",
+			"[14] = ",
+			"detsad",
+			"school",
+			"detsad",
+			"Things",
+			"i",
+			"tipe",
+			"Icon",
+			"b",
+			"myDivIcon",
+			"inlineBlock__stretch",
+			"        ",
+			"class=\"docslist__item",
+			"222222222",
+			"Материнский",
+			"div",
+			"lazyimg",
+			"calc__from",
+			"    req",
+			"req",
+			"form",
+			" =",
+			"button class",
+			"img src",
+			"request__field",
+			".intopModal__whiteContent",
+			"#a9a9a9",
+			"request__input",
+			"Ваш",
+			" data-item=\"\"",
+			"1 ком. кв.",
+			"<br>",
+			"</b>",
+			"<b>",
+			"<span class=\"v-mobile\">",
+			"v-mobile",
+			"0056AC",
+			"tbody",
+			" payment__td-wide",
+			"div",
+			"yyyyyyyyyyyy",
+			"yyyyyyyyyyyyy",
+			"xxxxxxxxxxx",
+			"filter_selected",
+			"filter__item",
+			"build__img",
+			"plans__slider",
+			"inlineBlock__item",
+			"a-item",
+			"alt",
+			"map",
+			"filter__item",
+			"stud",
+			"tem=\"",
+			"item=\"",
+			"filter__item-",
+			"Литер ",
+			"filter__text",
+			"сдан",
+			"Литер",
+			"yyyyyyyyyyyyy",
+			"xxxxxxxxxxx",
+			"trust",
+			"footer",
+			"yyyyyyyyyyyyy",
+			"div",
+			"<br />",
+			"look__formItem",
+			".g-h1h2:after",
+			"                        ",
+			"inlineBlock__item",
+			"xxxxxxxxxxx",
+			"yyyyyyyyyyyyy",
+			" на строительство"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 981,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bs_sintax": "html",
+							"buffer_scroll_name": "073efa06",
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 51.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "Packages/YUI Compressor/YUI Compressor.sublime-build",
+	"project": "OMNY.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"intosli",
+				"css\\intop.slider.css"
+			],
+			[
+				"slide",
+				"js\\vendor\\jquery.intop.slider.js"
+			],
+			[
+				"intop",
+				"js\\vendor\\jquery.intop.slider.js"
+			],
+			[
+				"data",
+				"js\\database.js"
+			],
+			[
+				"mainm",
+				"css\\main.min.css"
+			],
+			[
+				"mainmi",
+				"css\\main.min.css"
+			],
+			[
+				"base",
+				"js\\base.min.js"
+			],
+			[
+				"main",
+				"js\\main.min.js"
+			],
+			[
+				"mase",
+				"js\\map_settings.min.js"
+			],
+			[
+				"mainmin",
+				"js\\main.min.js"
+			],
+			[
+				"bas",
+				"js\\base.js"
+			],
+			[
+				"map",
+				"js\\map_settings.js"
+			],
+			[
+				"ba",
+				"js\\base.js"
+			],
+			[
+				"call",
+				"php\\callme.php"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"sli",
+				"js\\vendor\\jquery.intop.slider.js"
+			],
+			[
+				"combi",
+				"js\\js.combined.js"
+			],
+			[
+				"refe",
+				"php\\referer_init.php"
+			],
+			[
+				"menu",
+				"js\\vendor\\jquery.intop.menu.js"
+			],
+			[
+				"intopsl",
+				"js\\vendor\\jquery.intop.slider.js"
+			],
+			[
+				"insli",
+				"js\\vendor\\jquery.intop.slider.js"
+			],
+			[
+				"fow2",
+				"css\\fonts-woff2.css"
+			],
+			[
+				"fow",
+				"css\\fonts-woff.css"
+			],
+			[
+				"mai",
+				"js\\main.js"
+			],
+			[
+				"into",
+				"js\\vendor\\jquery.intop.slider.js"
+			],
+			[
+				"me",
+				"css\\intop.menu.css"
+			],
+			[
+				"comb",
+				"js\\js.combined.js"
+			],
+			[
+				"sty",
+				"php\\styles.php"
+			],
+			[
+				"tra",
+				"php\\translate.php"
+			],
+			[
+				"seco",
+				"secondary.php"
+			],
+			[
+				"ma",
+				"css\\main.min.css"
+			],
+			[
+				"arct",
+				"css\\jquery.arcticmodal.css"
+			],
+			[
+				"plu",
+				"js\\plugins.js"
+			],
+			[
+				"int",
+				"js\\vendor\\jquery.intop.slider.js"
+			],
+			[
+				"scr",
+				"php\\scripts.php"
+			],
+			[
+				"se",
+				"secondary.php"
+			],
+			[
+				"",
+				"Resume3.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
