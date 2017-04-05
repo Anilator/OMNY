@@ -1,0 +1,102 @@
+
+/* Секция для оперы Престо */
+  _:-o-prefocus, ._ibox { font-size: 1px !important; }  /* Опера не понимает 0px */
+  _:-o-prefocus, ._ib { margin: 0 0 -1px -1px; }
+  _:-o-prefocus, ._ib:first-child { margin-left: 0; }
+
+/* Секция для всех IE */
+  /* В IE6-8 justify делается при помощи свойства text-align-last. В новых браузерах -- через :after */
+  ._justify { text-justify: newspaper; } /* Работает во всех IE. Без этого свойства текст не выравнивается в IE */
+
+/* Секция для IE7 */
+  html { //padding-right: 1px; } /* Чтобы не появлялся случайный горизонтальный скролл */
+  ._justify { //text-align-last: justify; //zoom:1; }
+  ._ibox { //line-height: 1px !important; } /* Только так IE7 не создаёт лишнюю строку внизу */
+  ._ib { //display: inline!important; //zoom: 1; //margin: 0; }
+  /* Вертикально выравнивающий элемент */
+  ._middler {
+    //display: inline!important; //zoom: 1;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+/* Секция для IE8 */
+  ._justify { text-align-last: justify\0/; }
+  ._ib { text-align-last: auto\0/; }
+
+
+/*▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒*/
+/*                            Классы для выравнивания инлайн-блоков
+/*▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒*/
+
+/*                                 Выравнивание по ширине
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔*/
+  /* Блок для инлайнов без пробелов */
+  ._ibox {
+    font-size: 0;
+    line-height: 0px;
+  }
+  ._ib {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    vertical-align: middle;
+  }
+  ._justify { text-align: justify; }
+  :root ._justify:after { /* В совеременных браузерах (IE 9+) будет использоваться псевдоэлемент */
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 0px;
+  }
+
+/*                                Центрирование по высоте
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔*/
+  /* Вертикально выравнивающий элемент */
+  ._middler { display: inline-block; }
+
+
+
+
+
+
+/*                 Адаптивность: в мобильнике - блок, в десктопе - инлайн-блок
+▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔*/
+@media screen and (max-width: 1001px) {
+  ._adaptive .ib {
+    display: block;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1001px) {
+  ._adaptive .ib { display: inline-block; }
+}
+
+
+/*▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒*/
+/*                                Простые Модификаторы
+/*▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒*/
+
+._tal { text-align: left; }
+._tac { text-align: center; }
+._tar { text-align: right; }
+
+._vab { vertical-align: bottom; }
+._vam { vertical-align: middle; }
+._vat { vertical-align: top; }
+
+._m0  { margin: 0; }
+._mt0 { margin-top: 0; }
+._mb0 { margin-bottom: 0; }
+
+._rel { position: relative; }
+
+
+/*▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒*/
+/*                                Скриптовые классы
+/*▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒*/
+
+
+/* Написать классы для вызова модального окна, лайтбокса, слайдера
+*/
