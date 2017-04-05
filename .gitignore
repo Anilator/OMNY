@@ -2,6 +2,9 @@
 Thumbs.db
 ehthumbs.db
 
+*.sublime-workspace
+*.sublime-project
+
 # Folder config file
 Desktop.ini
 
@@ -46,5 +49,3 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-.sublime-workspace
-.sublime-project
