@@ -1,7 +1,8 @@
-_:-o-prefocus,._ibox{font-size:1px!important}_:-o-prefocus,._ib{margin:0 0 -1px -1px}_:-o-prefocus,._ib:first-child{margin-left:0}._justify{text-justify:newspaper}
-html{//padding-right:1px}._justify{//text-align-last:justify;//zoom:1}._ibox{//line-height:1px!important}._ib{//display:inline!important;//zoom:1;//margin:0}
-._middler{//display:inline!important;//zoom:1;height:100%;vertical-align:middle}._justify{text-align-last:justify\0/}._ib{text-align-last:auto\0/}._ibox{font-size:0;line-height:0}
-._ib{display:inline-block;font-size:16px;line-height:1.25;text-align:center;vertical-align:middle}._justify{text-align:justify}:root ._justify:after{content:'';display:inline-block;width:100%;height:0}
-._middler{display:inline-block}@media screen and (max-width:1001px){._adaptive .ib{display:block;margin:auto}}@media screen and (min-width:1001px){._adaptive .ib{display:inline-block}
+_:-o-prefocus,._ibox{font-size:1px!important}_:-o-prefocus,._ib{margin:0 0 0 -1px}._justify{text-justify:newspaper}html{//padding-right:1px}._justify{//text-align-last:justify;//zoom:1}
+._ibox{//line-height:1px!important}._ib{//display:inline!important;//zoom:1;//margin:0}._middler{//display:inline!important;//zoom:1;height:100%;vertical-align:middle}
+._justify{text-align-last:justify\0/}._ib{text-align-last:auto\0/}._ibox{font-size:0;line-height:0}._ib{display:inline-block;font-size:16px;line-height:1.25;text-align:center;vertical-align:middle}
+._justify{text-align:justify}:root ._justify:after{content:'';display:inline-block;width:100%;height:0}._middler{display:inline-block}
+._btn{color:#fff;height:40px;padding:0 1em;font-size:14px;vertical-align:middle;background:#888;border:0}._btn:focus{outline:0}._btnWrap{height:200px}
+@media screen and (max-width:1001px){._adaptive .ib{display:block;margin:auto}}@media screen and (min-width:1001px){._adaptive .ib{display:inline-block}
 }._tal{text-align:left}._tac{text-align:center}._tar{text-align:right}._vab{vertical-align:bottom}._vam{vertical-align:middle}._vat{vertical-align:top}
 ._m0{margin:0}._mt0{margin-top:0}._mb0{margin-bottom:0}._rel{position:relative}

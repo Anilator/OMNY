@@ -2,8 +2,8 @@
 /*▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ OLD BROWSERS SUPPORT ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒*/
   /* Opera Presto */
     _:-o-prefocus, ._ibox { font-size: 1px !important; }  /* Опера не понимает 0px */
-    _:-o-prefocus, ._ib { margin: 0 0 -1px -1px; }
-    _:-o-prefocus, ._ib:first-child { margin-left: 0; }
+    _:-o-prefocus, ._ib { margin: 0 0 0 -1px; }
+    /*_:-o-prefocus, ._ib:first-child { margin-left: 0; }*/
 
   /* IE all versions */
     /* В IE6-8 justify делается при помощи свойства text-align-last. В новых браузерах -- через :after */
@@ -58,6 +58,21 @@
 
 
 
+
+._btn {
+  color: #fff;
+  height: 40px;
+  padding: 0 1em;
+  font-size: 14px;
+  vertical-align: middle;
+  background: #888;
+  border: none;
+}
+._btn:focus { outline: none; }
+
+._btnWrap {
+  height: 200px;
+}
 
 /********* TO DO */
 

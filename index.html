@@ -38,7 +38,7 @@
 <h1><a href="https://github.com/Anilator/OMNY">OMNY project on GitHub</a></h1>
 <p>If U cannot use flexboxes because of their poor browsers support, just use inline-blox. This page demonstrates their capabilities. U may open this page in any browser and make sure.</p><hr>
 <p>The '_ibox' class makes null gaps between inline-blocks in all browsers.</p>
-<p>The '_ib' class restores font and line sizes and allows 'display: inline-block' on IE7-.</p>
+<p>The '_ib' class restores font and line sizes. It also allows 'display: inline-block' on IE7-.</p>
 <div class="b _ibox _tac" style="height: auto">
   <div class="s _ib">These blocks<br>...</div>
   <div class="s _ib">...have no gaps...</div>
@@ -61,6 +61,16 @@
   <div class="s _ib">This block may have<br>any height as his parent may</div><div class="_middler"></div>
 </div>
 <p>It's not possible to make blocks be justified and vertical middled in IE7 simultaneously. It's possible only in IE8+ browsers.</p>
+
+<h2>Buttons</h2>
+<p>Use only 'input'-buttons, not 'button' tag if U wanna get correct button's behavior in IE7.</p>
+<p>Look at that, IE7 don't put gaps between inline-blocks.</p>
+<p>Don't set vertican paddings to buttons because of Safari bug. BTW, Safary ignores 'Height' in buttons.</p>
+<div class="b _btnWrap _tac">
+  <input type="submit" class="_btn" value="Button"><div class="_middler"></div>
+  <input type="submit" class="_btn" value="Button" style="height: 80px; background: red;">
+</div>
+<p>But, if U wanna get some styled buttons in all browsers, use 'div' and JS. Sadly, semantic and cross-browsering are not friends.</p>
 
 
 </body>
