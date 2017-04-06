@@ -59,14 +59,24 @@
 
 
 ._btn {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Removes default highlight */
   -webkit-appearance: none;
-  color: #fff;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  line-height: normal !important; /* This is Firefox default... */
+
   height: 40px;
-  padding: 0 1em;
-  font-size: 14px;
+  color: #fff;
+  font-size: 16px;
   vertical-align: middle;
-  background: #888;
+  background: none;
   border: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
 }
 ._btn:focus { outline: none; }
 
