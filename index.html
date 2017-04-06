@@ -2,50 +2,65 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta property="og:image" content="http://klimov-e.neocities.org/examples/centering/OG.PNG">
-  <title>Lib</title>
-  <link rel="stylesheet" href="centering.css">
+  <title>OMNY Library</title>
+  <link rel="stylesheet" href="centering.min.css">
 
   <style>
     html { background-color: black; }
     body {
-      margin: 0;
+      margin: 0 auto;
+      max-width: 980px;
+      color: #fff;
       font-family: "Arial";
-      /*background-color: blue;*/
     }
+    h1, h2 {
+      margin: 30px 0 10px;
+      text-align: center;
+    }
+    a { color: #fff; }
 
+    .b {
+      height: 150px;
+      background: #aaa;
+    }
     .s {
       width: 100px;
-      /*height: 80px;*/
       padding: 20px;
-      color: #fff;
       background: #dd7733;
       border: 1px solid yellow;
     }
 
-    .b {
-      height: 150px;
-      margin-top: 30px;
-      background: #aaa;
-    }
-
-    .cont { width: 606px; margin: 50px auto; background: gray; }
 
   </style>
 
 </head>
 <body>
-
-
+<h1><a href="https://github.com/Anilator/OMNY">OMNY project on GitHub</a></h1>
+<p>If U cannot use flexboxes because of their poor browsers support, just use inline-blox. This page demonstrates their capabilities. U may open this page in any browser and make sure.</p><hr>
+<p>The '_ibox' class makes null gaps between inline-blocks in all browsers.</p>
+<p>The '_ib' class restores font and line sizes and allows 'display: inline-block' on IE7-.</p>
+<div class="b _ibox _tac" style="height: auto">
+  <div class="s _ib">These blocks<br>...</div>
+  <div class="s _ib">...have no gaps...</div>
+  <div class="s _ib">...between each other.</div>
+  <div class="s _ib">And they<br>can...</div>
+  <div class="s _ib">...centers<br>unlike...</div>
+  <div class="s _ib">...Floats<br>cannot.</div>
+  <div class="s _ib">...<br>...</div>
+  <div class="s _ib">...<br>...</div>
+</div>
+<h2>Horizontal scattering of inline-blocks</h2>
 <div class="b _ibox _justify">
-  <div class="s _ib">12 <br>334</div>
-  <div class="s _ib">324</div>
-  <div class="s _ib">324 <br>555 <br>6584</div>
+  <div class="s _ib">These blocks<br>...</div>
+  <div class="s _ib">...cannot be vertical middled in parent...</div>
+  <div class="s _ib">in IE7-</div>
 </div>
 
-<div class="b _tac">
-  <div class="s _ib">12 <br>334</div><div class="_middler"></div>
+<h2>Vertical middling of ONE inline-block</h2>
+<div class="b _tac" style="height: 300px">
+  <div class="s _ib">This block may have<br>any height as his parent may</div><div class="_middler"></div>
 </div>
+<p>It's not possible to make blocks be justified and vertical middled in IE7 simultaneously. It's possible only in IE8+ browsers.</p>
 
 
 </body>
