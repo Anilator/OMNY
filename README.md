@@ -1,4 +1,3 @@
 # [Omnidirectional css lib](https://anilator.github.io/OMNY/)
 
-Hello.
-In this project I tries to collect CSS solutuions that helps support old browsers. Link to demo-page in header ↑↑↑.
+In this project I tried to collect CSS solutuions which help to support old browsers. Link to a demo-page in the header ↑↑↑.
